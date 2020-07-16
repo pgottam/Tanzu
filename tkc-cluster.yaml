@@ -2,7 +2,6 @@ apiVersion: run.tanzu.vmware.com/v1alpha1
 kind: TanzuKubernetesCluster                 
 metadata:
   name: workloadcluster                                
-  namespace: modernapps                    
 spec:
   distribution:
     version: v1.17.7 #v1.16    #The full image name is specified 
