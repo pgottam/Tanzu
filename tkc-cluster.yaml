@@ -11,7 +11,7 @@ spec:
       class: best-effort-small                  #large size VM
       storageClass: pacific-gold-storage-policy  #Specific storage class for control plane       
     workers:
-      count: 2                                 #5 worker nodes                     
+      count: 1                                 #5 worker nodes                     
       class: best-effort-small               #extra large size VM          
       storageClass: pacific-gold-storage-policy   #Specific storage class for workers     
   settings:
